@@ -1,0 +1,65 @@
+    1  git init
+    2  ls
+    3  ls -a
+    4  git commit -m 'primer comit'
+    5  git status
+    6  touch hola.txt
+    7  git status
+    8  git commit -m 'primer commit'
+    9  git add .
+   10  git status 
+   11  git commit -m 'primer commit'
+   12  git status 
+   13  git branch -M Master
+   14  git status 
+   15  git branch
+   16  git remote add origin git@github.com:Leon-ssd/testgit.git
+   17  git push -u origin Master
+   18  cd ..
+   19  git clone git@github.com:DiegoOrellanaUPDS/testgit.git
+   20  git log
+   21  cd testgit/
+   22  git log
+   23  git pull
+   24  git log
+   25  git branch
+   26  git pull
+   27  git branch
+   28  cd ..
+   29  ls
+   30  cd usandogit/
+   31  git status 
+   32  git add .
+   33  git status 
+   34  git restore7 --staged index.html
+   35  git restore --staged index.html
+   36  git checkout77
+   37  git checkout
+   38  git checkout .
+   39  git branch Develop
+   40  git branch f1017-7titulo
+   41  git branch -m  f1017-7titulo f101-titulo
+   42  git branch
+   43  git switch Develop 
+   44  git add .
+   45  git commit "index"
+   46  git commit -m "index"
+   47  git switch f1
+   48  git switch f101-titulo 
+   49  git switch Master 
+   50  git switch Develop 
+   51  git branch f102-titulo
+   52  git switch f102-titulo 
+   53  git add
+   54  git add .
+   55  git commit -m "titulo mas"
+   56  git status 
+   57  git add .
+   58  git commit -m "titulo mas"
+   59  git branch
+   60  git switch Develop 
+   61  git pull
+   62  git merge f102-titulo 
+   63  git push -u origin Develop 
+   64  history
+   65  history >> historial.txt
